@@ -1,0 +1,43 @@
+.box {
+    border: 3px solid red;
+    width: 400px;
+    height: 400px;
+    margin: 100px;
+    padding: 100px;
+}
+
+.heading {
+    border: 3px solid red;
+    width: 300px;
+    text-align: center;
+    margin: 100px;
+    padding: 100px;   
+}
+
+.heading2 {
+    border: 3px solid green;
+    width: 300px;
+    text-align: center;
+    /* 2개만 쓰면 앞 px는 '상하'에, 뒤 px는 '좌우'에 할당 */
+    margin: 100px 100px;
+    padding: 100px 50px;   
+}
+
+.heading3 {
+    border: 3px solid purple;
+    width: 300px;
+    text-align: center;
+    /* 3개를 쓰면 상 우좌 하 순서대로임 */
+    margin: 100px 50px 50px;
+    padding: 100px 50px 30px;   
+}
+
+.heading4 {
+    border: 3px solid blue;
+    width: 300px;
+    text-align: center;
+
+    /* 4개를 쓰면 margin과 padding은 상우하좌 순서대로임 */
+    margin: 100px 10px 10px 50px;
+    padding: 100px 50px 10px 5px;
+}

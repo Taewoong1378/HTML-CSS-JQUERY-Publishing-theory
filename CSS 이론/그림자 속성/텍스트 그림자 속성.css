@@ -1,0 +1,19 @@
+body {
+    background-color: #333;
+}
+
+.heading {
+    font-size: 80px;
+    text-transform: uppercase;
+    color: gold;
+    text-shadow: 5px 5px 20px rgba(255, 255, 255, 0.425);
+}
+
+.heading2 {
+    font-size: 80px;
+    text-transform: uppercase;
+    color: gold;
+    text-shadow: 5px 5px 0 dodgerblue, 10px 10px 0 rgb(127, 189, 250);
+}
+
+/* 텍스트 쉐도우는 inset을 사용할 수 없다 */

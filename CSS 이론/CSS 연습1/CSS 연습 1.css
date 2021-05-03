@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    font-size: 50px;
+    color: yellow;
+    background-color:red;
+}
+
+p {
+    text-align: center;
+    color:red;
+}
+
+.center {
+    text-align: right;
+    color:blue; 
+}
+
+#center {
+    text-align: left;
+    color: green;
+}
+
+div.center {
+    color:chartreuse;
+}

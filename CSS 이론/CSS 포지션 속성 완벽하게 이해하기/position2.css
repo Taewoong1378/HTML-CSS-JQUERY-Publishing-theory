@@ -1,0 +1,44 @@
+/* CSS PDF 58 & 59P 참고하기 */
+
+.parent {
+    border: 1px solid rgb(202, 202, 202);
+    width: 600px;
+    height: 600px;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    position: relative;
+}
+
+.parent div {
+    position: absolute;
+    background-color: dodgerblue;
+    width: 100px;
+    height: 100px;
+}
+
+.child1 {
+    left: 0;
+    top: 0;
+}
+
+.child2 {
+    left: 0;
+    bottom: 0;
+}
+
+.child3 {
+    right: 0;
+    bottom: 0;
+}
+
+.child4 {
+    right: 0;
+    top: 0;
+}
+
+.child5 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,31 @@
+/* 
+section {
+    border: 5px solid black;
+    width: 600px;
+    overflow: hidden;
+    text-align: center;
+}
+
+section article {
+    background-color: gold;
+    border: 3px solid white;
+    width: 200px;
+    height: 100px;
+    float: left;
+    box-sizing: border-box;
+} 
+*/
+
+section {
+    width: 650px;   /* 나중에 고쳐보자 */
+    border: 5px solid black;
+    text-align: center;
+}
+
+section article {
+    width: 200px;
+    height: 100px;
+    background-color: gold;
+    border: 5px solid white;
+    display: inline-block;
+}

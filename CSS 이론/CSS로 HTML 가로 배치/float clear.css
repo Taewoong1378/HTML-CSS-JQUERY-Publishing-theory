@@ -1,0 +1,34 @@
+/* CSS PDF 53P 참고 */
+
+.parent {
+    border: 5px solid red;
+    width: 600px;
+    text-align: center;
+}
+
+.top {
+    background-color: purple;
+    height: 50px;
+}
+
+.left {
+    background-color: gray;
+    height: 100px;
+    width: 200px;
+    float: left;
+}
+
+.right {
+    background-color: orange;
+    height: 100px;
+    width: 400px;
+    float: right;
+}
+
+.clear {
+    background-color: purple;
+    height: 50px;
+    /* 위에 있던 float: left & right의 속성이 적용됐기 때문에 이를 상속받지 않기 위해 clear를 사용한다 */
+    clear: both;
+}
+

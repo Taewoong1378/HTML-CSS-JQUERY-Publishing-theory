@@ -1,0 +1,35 @@
+.parent {
+    border: 1px solid red;
+    width: 600px;
+    height: 200px;
+}
+
+/* 자식 선택자 (바로 밑에 있는 자식 태그만 선택됨) */
+.parent > div {
+    border: 1px solid blue;
+    width: 200px;
+    height: 50px;
+}
+
+/* 하위 선택자 (하위에 있는 모든 태그가 선택됨)
+.parent div {
+    border: 1px solid blue;
+    width: 200px;
+    height: 50px;
+    padding: 20px;
+} 
+*/
+
+.box {
+    border: 1px solid red;
+    width: 400px;
+    height: 400px;
+}
+
+/* 하위 선택자 */
+.box div {
+    border: 1px solid blue;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}

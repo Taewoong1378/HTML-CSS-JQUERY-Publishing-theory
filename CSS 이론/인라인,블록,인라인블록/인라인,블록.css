@@ -1,0 +1,40 @@
+/* CSS PDF 37페이지 참고 */
+
+body {
+    color: #000;
+}
+
+/* body 태그로 a 태그를 검정색으로 바꾸려고 해도 바뀌지 않는다 */
+
+/* 
+a 태그는 인라인 요소이므로
+컨텐츠의 너비 값
+한 줄에 여러 개 배치
+크기 값을 가질 수 없음
+상하 마진은 가질 수 없음 
+*/
+
+
+a {
+    color: #000;
+    text-decoration: none;  /* 밑줄 없애기 */
+    border: 1px solid red;
+    width: 300px;   /* 인라인 요소는 크기 값을 가질 수 없다 */
+    height: 200px;  /* 인라인 요소는 크기 값을 가질 수 없다 */
+    margin: 50px;   /* 인라인 요소는 상하마진을 가질 수 없다 (좌우만) */
+}
+
+
+div {
+    /* 블록 요소는 기본 너비 값: 100% */
+    border: 1px solid red;
+    height: 100px;
+    /* width: 100%; */
+    margin: 50px;
+}
+
+
+img {
+    border: 1px solid red;
+    margin: 50px;   /* 상하좌우 마진 가질 수 있음 */
+}

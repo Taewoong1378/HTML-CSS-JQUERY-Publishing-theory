@@ -1,0 +1,59 @@
+.parent {
+    border: 5px solid red;
+    width: 600px;
+    /* 왜 height값을 주지 않는가? 부모 요소에 높이 값을 주지 않아도 자식 값에 높이값을 주게 되면 자동으로 높이가 적용된다. */
+    /* height: 200px; */
+    overflow: hidden;
+}
+
+.child {
+    background-color: gold;
+    width: 200px;
+    height: 200px;
+    /* float: left 가 아닌 float: none이 디폴트 값이다 */
+    float: left;
+    /* 자식요소에 float 속성이 사용되면 부모 요소는 자식요소가 없다고 판단해 높이값을 잃게된다. */
+
+    /* 위 문제의 해결법 : 2가지
+    1) 부모 요소에 height: 200px;을 추가 
+    2) 부모 요소에 overflow: hidden;을 추가 
+    
+    2번 해결법이 자식의 높이가 변경돼도 자동으로 맞춰주기 때문에 훨씬 더 낫다. 웬만하면 2번 해결법을 사용할 것
+    */
+}
+
+.parent2 {
+    border: 5px solid red;
+    width: 600px;
+    overflow: hidden;
+}
+
+.child2 {
+    background-color: gold;
+    width: 200px;
+    height: 200px;
+    /* float: left 가 아닌 float: none이 디폴트 값이다 */
+    display: block;
+    margin: auto;
+    /* float는 인라인, 블록, 인라인 블록 모두에서 사용 가능
+    하지만 margin: auto는 인라인과 인라인 블록에선 사용 불가능(블록 요소에서만 사용 가능)
+    */
+
+    /* 그렇다면 만약 인라인이나 인라인 블록에서 자식 요소를 중앙으로 배치하고 싶다면? 부모 요소에서 text-align: center; 를 사용하거나 display로 요소 변경 */
+
+    /* 아래와 3번째 예시와 같이 하면됨 */
+}
+
+.parent3 {
+    border: 5px solid red;
+    width: 600px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.child3 {
+    background-color: gold;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}

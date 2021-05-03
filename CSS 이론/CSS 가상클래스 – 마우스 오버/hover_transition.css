@@ -1,0 +1,22 @@
+/* CSS PDF 71P */
+
+body {
+    background-color: white;
+    color: red;
+    /* a 태그 안에 있는 텍스트는 body 태그로 색깔 변경할 수 없음 */
+}
+
+a {
+    color: #333;
+    /* a 태그 안에 있는 텍스트의 밑줄 지우기 */
+    text-decoration: none;
+    /* transition은 hover가 아닌 곳에 넣어주기! */
+    /* hover의 적용 속도를 조절해주는 역할을 한다 */
+    transition: 1s;
+}
+
+/* a와 hover 사이에 띄어쓰기가 있으면 안된다 */
+a:hover {
+    color: dodgerblue;
+    text-decoration: underline;
+}

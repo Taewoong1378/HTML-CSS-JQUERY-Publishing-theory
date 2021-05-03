@@ -1,0 +1,43 @@
+/* 
+box1 ~ box8의 클래스 하나하나 지정하려고 하면 시간이 오래 걸린다. div 하나로 해결 가능 
+*/
+
+div {
+    color: white;
+    text-align: center;
+    line-height: 200px;
+
+
+    /* 여기서부터가 네모 속성 */
+    width: 200px;
+    height: 200px;
+    background-color: dodgerblue;
+    border: 10px solid orange;
+    margin: 10px;
+    float: left;    /* 가로배치 */
+}
+
+.box1 {
+    border-radius: 20px;
+}
+.box2 {
+    border-radius: 50px;
+}
+.box3 {
+    border-radius: 50%;
+}
+.box4 {
+    border-radius: 50px 0 50px 0;    
+}
+.box5 {
+    border-radius: 100% 0 0 0;
+}
+.box6 {
+   border-radius: 50% 50% 50% 0; 
+}
+.box7 {
+    border-radius: 100% 0 100% 0;
+}
+.box8 {
+    border-radius: 50% 50% 0 0;
+}

@@ -1,0 +1,9 @@
+.heading{
+    font-size: 50px;
+    color: crimson;
+    font-weight: normal;
+    box-sizing: border-box;
+    background: black;
+    position: relative;
+    position: absolute;
+}

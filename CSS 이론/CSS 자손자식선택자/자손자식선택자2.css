@@ -1,0 +1,42 @@
+/* 
+CSS 자손선택자 : 스페이스
+CSS 자식선택자 : > 
+*/
+
+.box {
+    border: 1px solid red;
+    width: 400px;
+    height: 400px;
+}
+
+/* 
+.box div {
+    border: 1px solid blue;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+} 
+
+얘는 자손선택자로 
+        <div>
+            <div></div>
+        </div>
+
+가 모두다 선택됨. 따라서 박스가 2개가 생성된다.
+*/
+
+
+.box > div {
+    border: 1px solid blue;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+} 
+
+/* 얘는 자식 선택자로 box class 바로 밑에 있는 div만을 선택하기 때문에 박스가 하나만 생성된다.  */
+
+.box > div div {
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+}

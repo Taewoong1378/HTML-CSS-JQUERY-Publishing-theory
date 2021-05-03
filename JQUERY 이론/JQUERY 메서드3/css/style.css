@@ -1,0 +1,35 @@
+.menu {
+    width: 200px;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.menu li > a {
+    width: 200px;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+}
+
+.sub-menu {
+    border: 1px solid black;
+    display: none;  /* 여기에 none을 해줘야된다 */
+}
+
+.sub-menu a {
+    width: 200px;
+    text-decoration: none;
+    color:black;
+    display: inline-block;
+    border-bottom: 1px solid black;
+}
+
+.sub-menu a:last-child {
+    border-bottom: none;
+}
+
+.menu li> a {
+    background-color: #000;
+    color: #fff;
+}

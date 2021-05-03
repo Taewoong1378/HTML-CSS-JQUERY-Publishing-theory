@@ -1,0 +1,45 @@
+.tab-inner {
+    width: 400px;
+}
+
+.btn span {
+    background-color: #ddd;
+    width: 120px;
+    /* span은 인라인 요소로 크기값 변경이 불가능 */
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+
+    /* a 태그가 아닌 것에 손가락 모양이 나오도록 하는 코드 */
+    cursor: pointer;
+    border: 1px solid black;
+    margin-right: -7px;
+}
+
+/* 출현하는 요소의 첫 번째 요소를 선택한다 */
+.btn span:first-child {
+    background-color: #fff;
+    border-bottom: none;
+}
+
+/* 출현하는 요소의 마지막 요소를 선택한다 */
+.btn span:last-child {
+    border-bottom: none;
+}
+
+.tab {
+    border: 1px solid black;
+}
+
+.tab a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    margin: 5px;
+    border-bottom: 1px solid #000;
+}
+
+/* 이걸 해주지 않으면 마지막에 2줄이 생겨 px가 더 두꺼워짐 */
+.tab a:last-child {
+    border-bottom: none;
+}

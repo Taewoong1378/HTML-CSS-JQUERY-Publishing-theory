@@ -1,0 +1,35 @@
+/* CSS 강좌 47p 참고 */
+
+div {
+    background-color: rgb(204, 204, 204);
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 5px;
+    float: left;
+}
+
+.box1 {
+    /* box-shadow: x축이동거리 y축이동거리 퍼짐정도 색상; */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.box2 {
+    box-shadow: 0 0 20px rgba(0, 157, 255, 0.5);
+}
+
+.box3 {
+    box-shadow: 5px 5px 0 #98ccff;
+}
+
+.box4 {
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.box5 {
+    box-shadow: inset 0 0 10px #fff;
+}
+
+.box6 {
+    box-shadow: inset 0 0 100px #000;
+}

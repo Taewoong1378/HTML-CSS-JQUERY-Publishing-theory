@@ -1,0 +1,19 @@
+.btn {
+    width: 300px;
+}
+
+.btn span {
+    width: 100px;
+    background-color: #ccc;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn span.active {
+    background-color: #fff;
+    border: 1px solid #000;
+}
